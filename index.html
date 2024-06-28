@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details Form</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<center><h1  style="font-family: Georgia, 'Times New Roman', Times, serif;">YOUR VISA FORM</h1></center>
+<body>
+
+    <form id="personal-details-form">
+        <div class="image-container">
+            <img src="banner.jpg" alt="Form Image" class="blur-image">
+            
+        </div>
+        <h2>Personal Details</h2>
+        <label for="name-passport">Name as per Passport:</label>
+        <input type="text" id="name-passport" name="name-passport" required>
+
+        <label for="dob">DOB:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Address as per Passport:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" required>
+
+        <label for="aadhar">Aadhar Card Number:</label>
+        <input type="number" id="aadhar" name="aadhar" required>
+
+        
+        <label for="us-visit">Have you ever lost a passport or had one stolen? </label>
+<select id="us-visit" name="us-visit">
+  <option value="yes">Yes</option>
+  <option value="no">No</option>
+</select>
+
+        <label for="languages">Languages Known:</label>
+        <input type="text" id="languages" name="languages" required>
+
+        <label>Have you ever been in the U.S.?</label>
+        <select id="us-visit" name="us-visit">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+
+        <label>Have you ever travelled to any other country rather than the USA?</label>
+        <select id="us-visit" name="us-visit">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+
+        <label for="trip-sponsor">Name of Person Paying for Your Trip (one of your parent name):</label>
+        <input type="text" id="trip-sponsor" name="trip-sponsor" required>
+
+        <label for="parent-phone">Parent Telephone Number:</label>
+        <input type="number" id="parent-phone" name="parent-phone" required>
+
+        <label for="parent-email">Parent Email Address:</label>
+        <input type="email" id="parent-email" name="parent-email" required>
+
+        <label for="relationship">Relationship to You:</label>
+        <input type="text" id="relationship" name="relationship" required>
+
+        <label for="father-dob">Father's Date of Birth:</label>
+        <input type="date" id="father-dob" name="father-dob" required>
+
+        <label for="mother-dob">Mother's Date of Birth:</label>
+        <input type="date" id="mother-dob" name="mother-dob" required>
+
+        <label>Is your mother / father in the U.S.?</label>
+        <select id="us-visit" name="us-visit">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+
+        <label for="marital-status">Marital Status:</label>
+        <input type="text" id="marital-status" name="marital-status" required>
+
+        <label for="primary-number">Primary Number:</label>
+        <input type="number" id="primary-number" name="primary-number" maxlength="12" required>
+
+        <label for="secondary-number">Secondary Number:</label>
+        <input type="number" id="secondary-number" name="secondary-number" maxlength="12">
+
+        <label for="father-name">Father's Name:</label>
+        <input type="text" id="father-name" name="father-name" required>
+
+        <label for="father-contact">Father's Contact Number:</label>
+        <input type="number" id="father-contact" name="father-contact" required>
+
+        <label for="father-email">Father's Email IDs:</label>
+        <input type="email" id="father-email" name="father-email" required>
+
+        <label for="mother-name">Mother's Name:</label>
+        <input type="text" id="mother-name" name="mother-name" required>
+
+        <label for="mother-contact">Mother's Contact Number:</label>
+        <input type="number" id="mother-contact" name="mother-contact" required>
+
+        <label for="mother-email">Mother’s Email ID:</label>
+        <input type="email" id="mother-email" name="mother-email" required>
+
+        <h2>Current Working Details</h2>
+        <label for="org-name">NAME OF ORGANIZATION:</label>
+        <input type="text" id="org-name" name="org-name" required>
+
+        <label for="designation">Designation:</label>
+        <input type="text" id="designation" name="designation" required>
+
+        <label for="org-address">Address:</label>
+        <input type="text" id="org-address" name="org-address" required>
+
+        <label for="org-city">City:</label>
+        <input type="text" id="org-city" name="org-city" required>
+
+        <label for="org-state">State:</label>
+        <input type="text" id="org-state" name="org-state" required>
+
+        <label for="org-pincode">Pincode:</label>
+        <input type="text" id="org-pincode" name="org-pincode" required>
+
+        <label for="start-date">Start Date (DD/MM/YYYY):</label>
+        <input type="date" id="start-date" name="start-date" required>
+
+        <label for="monthly-salary">MONTHLY SALARY:</label>
+        <input type="text" id="monthly-salary" name="monthly-salary" required>
+
+        <h3>REFERENCE CONTACT PERSON FROM EACH ORGANISATION WITH THEIR RESPECTIVE DETAILS:</h3>
+        <label for="ref-full-name">FULL NAME:</label>
+        <input type="text" id="ref-full-name" name="ref-full-name" required>
+
+        <label for="ref-contact">CONTACT NUMBER:</label>
+        <input type="number" id="ref-contact" name="ref-contact" required>
+
+        <label for="ref-email">Email ID:</label>
+        <input type="email" id="ref-email" name="ref-email" required>
+
+        <h2>Previous Working Details</h2>
+        <label for="prev-org-name">NAME OF ORGANIZATION:</label>
+        <input type="text" id="prev-org-name" name="prev-org-name">
+
+        <label for="prev-designation">Designation:</label>
+        <input type="text" id="prev-designation" name="prev-designation">
+
+        <label for="prev-org-address">Address:</label>
+        <input type="text" id="prev-org-address" name="prev-org-address">
+
+        <label for="prev-org-city">City:</label>
+        <input type="text" id="prev-org-city" name="prev-org-city">
+
+        <label for="prev-org-state">State:</label>
+        <input type="text" id="prev-org-state" name="prev-org-state">
+
+        <label for="prev-org-pincode">Pincode:</label>
+        <input type="text" id="prev-org-pincode" name="prev-org-pincode">
+
+        <label for="prev-start-date">Start Date (DD/MM/YYYY):</label>
+        <input type="date" id="prev-start-date" name="prev-start-date">
+
+        <label for="prev-end-date">End Date (DD/MM/YYYY):</label>
+        <input type="date" id="prev-end-date" name="prev-end-date">
+
+        <label for="job-roles">JOB ROLES & RESPONSIBILITIES:</label>
+        <textarea id="job-roles" name="job-roles"></textarea>
+
+        <h3>REFERENCE CONTACT PERSON FROM EACH ORGANISATION WITH THEIR RESPECTIVE DETAILS (any head or supervisor name):</h3>
+        <label for="prev-ref-full-name">FULL NAME:</label>
+        <input type="text" id="prev-ref-full-name" name="prev-ref-full-name">
+
+        <label for="prev-ref-contact">CONTACT NUMBER:</label>
+        <input type="number" id="prev-ref-contact" name="prev-ref-contact">
+
+        <label for="prev-ref-email">Email ID:</label>
+        <input type="email" id="prev-ref-email" name="prev-ref-email">
+
+        <h2>Educational Details</h2>
+        <label for="course-name">Name of the Course:</label>
+        <input type="text" id="course-name" name="course-name" required>
+
+        <label for="college-name">Name of College:</label>
+        <input type="text" id="college-name" name="college-name" required>
+
+        <label for="university-name">University Name:</label>
+        <input type="text" id="university-name" name="university-name" required>
+
+        <label for="edu-address">Address:</label>
+        <input type="text" id="edu-address" name="edu-address" required>
+
+        <label for="edu-city">City:</label>
+        <input type="text" id="edu-city" name="edu-city" required>
+
+        <label for="edu-state">State:</label>
+        <input type="text" id="edu-state" name="edu-state" required>
+
+        <label for="edu-pincode">Pincode:</label>
+        <input type="text" id="edu-pincode" name="edu-pincode" required>
+
+        <label for="edu-start-date">Start date (DD/MM/YYYY):</label>
+        <input type="date" id="edu-start-date" name="edu-start-date" required>
+
+        <label for="edu-end-date">End Date:</label>
+        <input type="date" id="edu-end-date" name="edu-end-date" required>
+
+        <label for="college-contact">Contact Detail of College:</label>
+        <input type="text" id="college-contact" name="college-contact" required>
+
+        <h2>Social Media Site</h2>
+        <p>Please let us know if you are active on the below Social Media sites (If yes, please mention your User Id or else mention NO)</p>
+        <label for="askfm" >ASK.FM:</label>
+        <input type="text" id="askfm" name="askfm"><br>
+
+        <label for="doban">DOBAN:</label>
+        <input type="text" id="doban" name="doban"><br>
+
+        <label for="facebook">FACEBOOK:</label>
+        <input type="text" id="facebook" name="facebook"><br>
+
+        <label for="flickr">FLICKR:</label>
+        <input type="text" id="flickr" name="flickr"><br>
+
+        <label for="google">GOOGLE:</label>
+        <input type="text" id="google" name="google"><br>
+
+        <label for="instagram">INSTAGRAM:</label>
+        <input type="text" id="instagram" name="instagram"><br>
+
+        <label for="linkedin">LINKEDIN:</label>
+        <input type="text" id="linkedin" name="linkedin"><br>
+
+        <label for="myspace">MY SPACE:</label>
+        <input type="text" id="myspace" name="myspace"><br>
+
+        <label for="pinterest">PINTERESET:</label>
+        <input type="text" id="pinterest" name="pinterest"><br>
+
+        <label for="reddit">REDDIT:</label>
+        <input type="text" id="reddit" name="reddit"><br>
+
+        <label for="sina-weibo">SINA WEIBO:</label>
+        <input type="text" id="sina-weibo" name="sina-weibo"><br>
+
+        <label for="tumblr">TUMBLR:</label>
+        <input type="text" id="tumblr" name="tumblr"><br>
+
+        <label for="twitter">TWITTER:</label>
+        <input type="text" id="twitter" name="twitter"><br>
+
+        <label for="twoo">TWOO:</label>
+        <input type="text" id="twoo" name="twoo"><br>
+
+        <label for="vine">VINE:</label>
+        <input type="text" id="vine" name="vine"><br>
+
+        <label for="youtube">YOUTUBE:</label>
+        <input type="text" id="youtube" name="youtube"><br>
+
+        <button type="button" onclick="downloadDoc()">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
